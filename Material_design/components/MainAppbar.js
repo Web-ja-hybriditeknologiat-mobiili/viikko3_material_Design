@@ -7,8 +7,8 @@ export default function MainAppbar(props){
         mode = "center-aligned"
         elevated={true}
         >
-            <Appbar.Content title = {props.title}
-            ></Appbar.Content>
+            <Appbar.Content title = {props.title} />
+           
         </Appbar.Header>
     )
 }
